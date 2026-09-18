@@ -628,10 +628,12 @@ article h3{
 }
 
 
-.work img {
-    height: 430px;
+.work img,
+.work video {
     width: 100%;
+    height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .work:hover img{
